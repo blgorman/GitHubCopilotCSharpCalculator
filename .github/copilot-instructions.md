@@ -69,6 +69,13 @@ This codebase follows **SOLID principles** with strict separation of concerns. E
 - **Never** implement ANY business logic directly - always delegate to separate testable classes
 - Example: `CalculatorOperations` coordinates but delegates math to a `Calculator` class
 
+**Output Formatting Guidelines**:
+- **For operation results**: Use `OutputHelpers.BoxedMessageWithTitle(title, message, lineLength)`
+  - **Title**: Describe what was done with key input values (e.g., "Add 10 + 20", "Search Records: 'term'", "Process File: data.txt")
+  - **Message**: Show the outcome/result (e.g., "Result: 30", "Found: 5 records", "Status: Success")
+- **For simple messages**: Use `OutputHelpers.BoxedMessage(message, borderChar, lineLength)`
+- This separates operation context (what was requested) from the outcome (what happened)
+
 ---
 
 ### 2. **ConsoleHelpers** - Separate Project
