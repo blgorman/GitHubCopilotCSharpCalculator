@@ -3,5 +3,6 @@
     <File Path="Directory.Build.props" />
   </Folder>
   <Project Path="ConsoleAppProject/ConsoleAppProject.csproj" />
+  <Project Path="ConsoleAppTests/ConsoleAppTests.csproj" Id="e996c4b7-100f-43fd-9e9d-e5999b225841" />
   <Project Path="ConsoleHelpers/ConsoleHelpers.csproj" Id="23e21561-dba0-435a-86f9-95181d94d999" />
 </Solution>

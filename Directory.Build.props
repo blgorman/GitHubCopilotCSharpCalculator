@@ -1,16 +1,20 @@
 <Project>
     <PropertyGroup>
         <TargetFrameworkVersion>net10.0</TargetFrameworkVersion>
-        <MicrosoftExtensionsHostingVersion>10.0.1</MicrosoftExtensionsHostingVersion>
-		<MicrosoftExtensionsConfigurationVersion>10.0.1</MicrosoftExtensionsConfigurationVersion>
-		<MicrosoftExtensionsConfigurationJsonVersion>10.0.1</MicrosoftExtensionsConfigurationJsonVersion>
+        <MicrosoftExtensionsHostingVersion>10.0.2</MicrosoftExtensionsHostingVersion>
+		<MicrosoftExtensionsConfigurationVersion>10.0.2</MicrosoftExtensionsConfigurationVersion>
+		<MicrosoftExtensionsConfigurationJsonVersion>10.0.2</MicrosoftExtensionsConfigurationJsonVersion>
 		<MicrosoftExtensionsEnvironmentVariablesConfigurationVersion>10.0.0</MicrosoftExtensionsEnvironmentVariablesConfigurationVersion>
-		<MicrosoftExtensionsConfigurationUserSecretsVersion>10.0.1</MicrosoftExtensionsConfigurationUserSecretsVersion>
-		<MicrosoftExtensionsDependencyInjectionVersion>10.0.1</MicrosoftExtensionsDependencyInjectionVersion>
+		<MicrosoftExtensionsConfigurationUserSecretsVersion>10.0.2</MicrosoftExtensionsConfigurationUserSecretsVersion>
+		<MicrosoftExtensionsDependencyInjectionVersion>10.0.2</MicrosoftExtensionsDependencyInjectionVersion>
 		<SerilogVersion>4.3.1-dev-02373</SerilogVersion>
 		<SerilogExtensionsHostingVersion>10.0.0</SerilogExtensionsHostingVersion>
 		<SerilogSettingsConfigurationVersion>10.0.0</SerilogSettingsConfigurationVersion>
 		<SerilogSinksConsoleVersion>6.1.1</SerilogSinksConsoleVersion>
 		<SerilogSinksFileVersion>7.0.0</SerilogSinksFileVersion>
+		<MicrosoftNETTestSdkVersion>18.0.1</MicrosoftNETTestSdkVersion>
+		<XUnitVersion>2.9.3</XUnitVersion>
+		<XUnitRunnerVisualStudioVersion>3.1.5</XUnitRunnerVisualStudioVersion>
+		<CoverletCollectorVersion>6.0.4</CoverletCollectorVersion>
 	</PropertyGroup>
 </Project>
