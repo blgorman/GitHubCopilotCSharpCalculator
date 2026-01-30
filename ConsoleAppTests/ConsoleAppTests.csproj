@@ -12,6 +12,11 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkVersion)" />
     <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitRunnerVisualStudioVersion)" />
 	  <PackageReference Include="xunit" Version="$(XUnitVersion)" />
+    <PackageReference Include="Shouldly" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppProject\ConsoleAppProject.csproj" />
   </ItemGroup>
 
   <ItemGroup>
